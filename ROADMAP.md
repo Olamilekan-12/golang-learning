@@ -37,10 +37,10 @@ Status legend: ✅ done · 🚧 current · ⬜ upcoming
 - ✅ `16-tooling` — go doc, golangci-lint (plus gofmt, go vet)
 
 ## Phase 6 — Modules & dependencies
-- 🚧 `17-modules-deep-dive` — go.mod/go.sum, semver, workspaces
+- ✅ `17-modules` — go get, go.mod/go.sum, semver, go mod tidy, module cache
 
 ## Phase 7 — Standard library deep dive
-- ⬜ `18-net-http` — HTTP server, middleware, routing
+- 🚧 `18-net-http` — HTTP server, middleware, routing
 - ⬜ `19-encoding-json`
 - ⬜ `20-io-and-files`
 - ⬜ `21-database-sql` — sqlite/postgres driver
