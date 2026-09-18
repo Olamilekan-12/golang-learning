@@ -32,8 +32,8 @@ Status legend: ✅ done · 🚧 current · ⬜ upcoming
 - ✅ `13-sync-primitives` — race conditions, `-race`, Mutex, atomic
 
 ## Phase 5 — Testing & tooling
-- 🚧 `14-testing` — go test, table-driven tests
-- ⬜ `15-benchmarks-profiling` — go test -bench, pprof
+- ✅ `14-testing` — go test, table-driven tests, subtests, coverage
+- 🚧 `15-benchmarks-profiling` — go test -bench, pprof
 - ⬜ `16-tooling` — gofmt, go vet, golangci-lint, go doc
 
 ## Phase 6 — Modules & dependencies
