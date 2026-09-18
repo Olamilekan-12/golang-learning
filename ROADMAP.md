@@ -33,8 +33,8 @@ Status legend: ✅ done · 🚧 current · ⬜ upcoming
 
 ## Phase 5 — Testing & tooling
 - ✅ `14-testing` — go test, table-driven tests, subtests, coverage
-- 🚧 `15-benchmarks-profiling` — go test -bench, pprof
-- ⬜ `16-tooling` — gofmt, go vet, golangci-lint, go doc
+- ✅ `15-benchmarks` — go test -bench, -benchmem, pprof
+- 🚧 `16-tooling` — gofmt, go vet, golangci-lint, go doc
 
 ## Phase 6 — Modules & dependencies
 - ⬜ `17-modules-deep-dive` — go.mod/go.sum, semver, workspaces
