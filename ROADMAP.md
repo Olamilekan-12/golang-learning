@@ -29,10 +29,10 @@ Status legend: ✅ done · 🚧 current · ⬜ upcoming
 ## Phase 4 — Concurrency (Tour of Go: Concurrency)
 - ✅ `11-goroutines-channels` — goroutines, sync.WaitGroup, buffered/unbuffered channels
 - ✅ `12-select-context` — select, time.After timeouts, context cancellation
-- 🚧 `13-sync-primitives` — Mutex, atomic, race detector (`-race`)
+- ✅ `13-sync-primitives` — race conditions, `-race`, Mutex, atomic
 
 ## Phase 5 — Testing & tooling
-- ⬜ `14-testing` — go test, table-driven tests
+- 🚧 `14-testing` — go test, table-driven tests
 - ⬜ `15-benchmarks-profiling` — go test -bench, pprof
 - ⬜ `16-tooling` — gofmt, go vet, golangci-lint, go doc
 
