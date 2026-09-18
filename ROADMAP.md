@@ -34,10 +34,10 @@ Status legend: ✅ done · 🚧 current · ⬜ upcoming
 ## Phase 5 — Testing & tooling
 - ✅ `14-testing` — go test, table-driven tests, subtests, coverage
 - ✅ `15-benchmarks` — go test -bench, -benchmem, pprof
-- 🚧 `16-tooling` — gofmt, go vet, golangci-lint, go doc
+- ✅ `16-tooling` — go doc, golangci-lint (plus gofmt, go vet)
 
 ## Phase 6 — Modules & dependencies
-- ⬜ `17-modules-deep-dive` — go.mod/go.sum, semver, workspaces
+- 🚧 `17-modules-deep-dive` — go.mod/go.sum, semver, workspaces
 
 ## Phase 7 — Standard library deep dive
 - ⬜ `18-net-http` — HTTP server, middleware, routing
