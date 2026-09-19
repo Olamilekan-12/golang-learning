@@ -52,9 +52,21 @@ Status legend: ✅ done · 🚧 current · ⬜ upcoming
 - ✅ `23-project-structure` — packages, cmd/ and internal/, exported vs unexported, tests beside code
 
 ## Phase 10 — Capstone project 🏆
-- 🚧 `capstone/` — full service (proposal: concurrent URL-shortener + analytics API —
-  REST API, Postgres, background workers, structured logging, tests, Docker, CI).
-  Final design confirmed once we get there.
+- 🚧 Capstone: URL shortener + click analytics API, in its own GitHub repo (separate from this one).
+  Built as small features, each repeating the same loop for muscle memory:
+  branch -> failing test -> implement -> gofmt/vet/lint/test -race -> small commits -> PR -> merge -> pull main.
+  - ⬜ 1. Skeleton: module, cmd/ + internal/ layout, /health endpoint, GitHub Actions CI
+  - ⬜ 2. SQLite storage: schema, create and get link
+  - ⬜ 3. Short-code generation and validation
+  - ⬜ 4. POST /links (JSON in and out)
+  - ⬜ 5. GET /{code} redirect
+  - ⬜ 6. Errors and proper status codes
+  - ⬜ 7. Click recording via background worker (goroutines, channels)
+  - ⬜ 8. GET /links/{code}/stats
+  - ⬜ 9. context timeouts and graceful shutdown
+  - ⬜ 10. Config from env vars, structured logging (slog)
+  - ⬜ 11. Race-proofing (-race), benchmarks
+  - ⬜ 12. Dockerfile and tagged v1.0.0 release
 
 ---
 
