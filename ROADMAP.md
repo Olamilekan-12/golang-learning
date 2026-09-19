@@ -46,10 +46,10 @@ Status legend: ✅ done · 🚧 current · ⬜ upcoming
 - ✅ `21-database-sql` — SQLite, Exec/Query/QueryRow, placeholders, sql.ErrNoRows
 
 ## Phase 8 — Generics
-- 🚧 `22-generics` — type parameters, constraints
+- ✅ `22-generics` — type parameters, constraints (any, cmp.Ordered), generic types
 
 ## Phase 9 — Idiomatic Go & project layout
-- ⬜ `23-project-structure` — standard Go project layout, Effective Go conventions
+- 🚧 `23-project-structure` — standard Go project layout, Effective Go conventions
 
 ## Phase 10 — Capstone project 🏆
 - ⬜ `capstone/` — full service (proposal: concurrent URL-shortener + analytics API —
