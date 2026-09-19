@@ -42,8 +42,8 @@ Status legend: ✅ done · 🚧 current · ⬜ upcoming
 ## Phase 7 — Standard library deep dive
 - ✅ `18-net-http` — handlers, routing with methods, query params, status codes
 - ✅ `19-encoding-json` — struct tags, Marshal/Unmarshal, JSON request/response handlers
-- 🚧 `20-io-and-files`
-- ⬜ `21-database-sql` — sqlite/postgres driver
+- ✅ `20-io-files` — os.ReadFile/WriteFile, bufio.Scanner, io.Reader/io.Writer
+- 🚧 `21-database-sql` — sqlite/postgres driver
 
 ## Phase 8 — Generics
 - ⬜ `22-generics` — type parameters, constraints
