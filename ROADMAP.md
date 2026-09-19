@@ -43,10 +43,10 @@ Status legend: ✅ done · 🚧 current · ⬜ upcoming
 - ✅ `18-net-http` — handlers, routing with methods, query params, status codes
 - ✅ `19-encoding-json` — struct tags, Marshal/Unmarshal, JSON request/response handlers
 - ✅ `20-io-files` — os.ReadFile/WriteFile, bufio.Scanner, io.Reader/io.Writer
-- 🚧 `21-database-sql` — sqlite/postgres driver
+- ✅ `21-database-sql` — SQLite, Exec/Query/QueryRow, placeholders, sql.ErrNoRows
 
 ## Phase 8 — Generics
-- ⬜ `22-generics` — type parameters, constraints
+- 🚧 `22-generics` — type parameters, constraints
 
 ## Phase 9 — Idiomatic Go & project layout
 - ⬜ `23-project-structure` — standard Go project layout, Effective Go conventions
