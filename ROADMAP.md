@@ -49,10 +49,10 @@ Status legend: ✅ done · 🚧 current · ⬜ upcoming
 - ✅ `22-generics` — type parameters, constraints (any, cmp.Ordered), generic types
 
 ## Phase 9 — Idiomatic Go & project layout
-- 🚧 `23-project-structure` — standard Go project layout, Effective Go conventions
+- ✅ `23-project-structure` — packages, cmd/ and internal/, exported vs unexported, tests beside code
 
 ## Phase 10 — Capstone project 🏆
-- ⬜ `capstone/` — full service (proposal: concurrent URL-shortener + analytics API —
+- 🚧 `capstone/` — full service (proposal: concurrent URL-shortener + analytics API —
   REST API, Postgres, background workers, structured logging, tests, Docker, CI).
   Final design confirmed once we get there.
 
