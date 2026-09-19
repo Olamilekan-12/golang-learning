@@ -55,8 +55,8 @@ Status legend: ✅ done · 🚧 current · ⬜ upcoming
 - 🚧 Capstone: URL shortener + click analytics API, in its own GitHub repo (separate from this one).
   Built as small features, each repeating the same loop for muscle memory:
   branch -> failing test -> implement -> gofmt/vet/lint/test -race -> small commits -> PR -> merge -> pull main.
-  - ⬜ 1. Skeleton: module, cmd/ + internal/ layout, /health endpoint, GitHub Actions CI
-  - ⬜ 2. SQLite storage: schema, create and get link
+  - ✅ 1. Skeleton: module, cmd/ + internal/ layout, /health endpoint, GitHub Actions CI (PR #1)
+  - 🚧 2. SQLite storage: schema, create and get link
   - ⬜ 3. Short-code generation and validation
   - ⬜ 4. POST /links (JSON in and out)
   - ⬜ 5. GET /{code} redirect
